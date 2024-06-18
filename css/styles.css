@@ -24,6 +24,7 @@ h2, h3, h4, h5, h6 {
 .visually-hidden {
     position: fixed;
     transform: scale(0);
+    display: none;
 }
 
 img {
@@ -161,6 +162,8 @@ ul, ol {
     padding: 120px 0;
 }
 
+.visually-hidden
+
 .qualities-list {
     display: flex;
     gap: 24px;
@@ -184,7 +187,6 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 
 .team-section {
