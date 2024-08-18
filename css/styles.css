@@ -149,6 +149,9 @@ ul, ol {
     border: none;
     background-color:#4d5ae5;
     border-radius: 4px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 
 }
 
