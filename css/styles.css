@@ -118,21 +118,21 @@ ul, ol {
 }
 
 .first-section {
-    min-height: 300px;
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #2E2F42B2;
-        background-image: linear-gradient(to bottom,
-                rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(https: //github.com/olmag99/goit-markup-hw-04/blob/main/7e83b6c8ee4603ea892aa8aaebb3c5fe%20.jpg?raw=true);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        color: #fff;
-        text-align: center;
+min-height: 300px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2E2F42B2;
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(https://cdn.pixabay.com/photo/2020/07/06/01/33/forest-5375005_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
 }
 
 .first-button {
