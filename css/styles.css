@@ -280,7 +280,7 @@ ul, ol {
     border-radius: 40px;
     width: 40px;
     height: 40px;
-    align-content: center;
+    place-content: center;
 }
 
 .social-media-icon {
