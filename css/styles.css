@@ -15,6 +15,11 @@ h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
+svg {
+    height: 24px;
+    width: 24px;
+}
+
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -100,6 +105,7 @@ ul, ol {
 
 .nav-link.current {
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link.current::before {
@@ -111,6 +117,17 @@ ul, ol {
     background-color: #404bbf;
     height: 4px;
     width: 100%;
+}
+
+.nav-link.current::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .nav-link:hover,
@@ -136,6 +153,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-section {
@@ -308,16 +326,16 @@ ul, ol {
     height: 40px;
     place-content: center;
     display: flex;
+    align-items: center
 }
 
 .social-media-icon {
-    width: 16px;
-    height: 16px;
+    fill: #f4f4fd;
 }
 
 .social-media-button:hover,
 .social-media-button:focus {
-    background-color: #404BBF;
+    background-color: #31d0aa;;
 }
 
 .portfolio-section {
