@@ -175,10 +175,7 @@ ul, ol {
 
 }
 
-.first-button:hover {
-    background-color: #404BBF;
-}
-
+.first-button:hover,
 .first-button:focus {
     background-color: #404BBF;
 }
@@ -306,10 +303,11 @@ ul, ol {
 
 .social-media-button {
     background-color: #4D5AE5;
-    border-radius: 40px;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
     place-content: center;
+    display: flex;
 }
 
 .social-media-icon {
@@ -317,7 +315,8 @@ ul, ol {
     height: 16px;
 }
 
-.social-media-button:hover {
+.social-media-button:hover,
+.social-media-button:focus {
     background-color: #404BBF;
 }
 
