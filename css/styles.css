@@ -383,8 +383,11 @@ ul, ol {
     margin-right: 120px;
 }
 
-.footer-container {
+.footer-info-container {
     margin-right: 120px;
+}
+
+.footer-social-container {
     margin-bottom: 16px;
 }
 .footer-logo {
