@@ -25,6 +25,12 @@ a{
     text-decoration: none;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .section-title {
     font-size: 36px;
     font-weight: 700;
@@ -56,12 +62,6 @@ ul, ol {
 .header-div {
     display: flex;
     flex-direction: row;
-}
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header-logo {
@@ -372,6 +372,15 @@ ul, ol {
 .footer {
     background-color: #2E2F42;
     padding: 100px 0
+}
+
+.footer-div-man {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
 }
 
 .footer-logo {
