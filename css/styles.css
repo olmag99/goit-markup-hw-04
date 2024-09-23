@@ -312,6 +312,17 @@ ul, ol {
     text-align: center;
 }
 
+.social-media-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
 .social-media-links {
     justify-content: center;
     display: flex;
