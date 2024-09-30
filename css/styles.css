@@ -351,6 +351,11 @@ ul, ol {
     fill: #f4f4fd;
 }
 
+.social-media-svg {
+    width: 24px;
+    height: 24px;
+}
+
 .social-media-button:hover,
 .social-media-button:focus {
     background-color: #31d0aa;;
