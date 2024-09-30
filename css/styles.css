@@ -337,7 +337,7 @@ ul, ol {
     border-radius: 70%;
 }
 
-.social-media-button {
+.social-media-link {
     background-color: #4D5AE5;
     border-radius: 50%;
     width: 40px;
@@ -347,13 +347,10 @@ ul, ol {
     align-items: center
 }
 
-.social-media-icon {
-    fill: #f4f4fd;
-}
-
 .social-media-svg {
     width: 24px;
     height: 24px;
+    fill: #f4f4fd;
 }
 
 .social-media-svg.current {
