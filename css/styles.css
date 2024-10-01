@@ -220,7 +220,9 @@ ul, ol {
     padding: 120px 0;
 }
 
-.visually-hidden
+.visually-hidden {
+    visibility: hidden;
+}
 
 .qualities-list {
     display: flex;
@@ -245,6 +247,22 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.qualities-list-svg-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
+.qualities-list-svg {
+    height: 64px;
+    width: 64px;
 }
 
 .team-section {
