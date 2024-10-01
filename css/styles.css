@@ -260,7 +260,6 @@ ul, ol {
     margin-bottom: 8px;
 }
 
-
 svg {
     height: 64px;
     width: 64px;
@@ -356,7 +355,6 @@ svg {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .social-media-button-container {
