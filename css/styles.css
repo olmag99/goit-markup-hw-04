@@ -269,7 +269,7 @@ ul, ol {
     margin-bottom: 8px;
 }
 
-svg {
+.qualities-list-svg {
     height: 64px;
     width: 64px;
 }
