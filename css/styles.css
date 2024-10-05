@@ -366,6 +366,11 @@ ul, ol {
     justify-content: center;
 }
 
+.social-media-button:hover,
+.social-media-button:focus {
+    background-color: #404bbf;
+}
+
 .social-media-button-container {
     background-color: #4D5AE5;
     width: 40px;
@@ -486,7 +491,6 @@ svg > .social-media-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transform: translateY(0%);
 }
 
 .footer {
