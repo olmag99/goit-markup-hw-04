@@ -269,7 +269,7 @@ ul, ol {
     margin-bottom: 8px;
 }
 
-.qualities-list-svg-div svg {
+.qualities-list-svg {
     height: 64px;
     width: 64px;
 }
@@ -337,6 +337,12 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+}
+
+.team-social-media-svg {
+        width: 16px;
+        height: 16px;
+        fill: #f4f4fd;
 }
 
 .social-media-div {
