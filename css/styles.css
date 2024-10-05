@@ -384,6 +384,16 @@ ul, ol {
     align-items: center
 }
 
+svg > .social-media-link {
+    width: 24px;
+    height: 24px;
+} 
+
+.social-media-link:hover,
+.social-media-link:focus {
+    background-color: #31d0aa;
+}
+
 .social-media-svg {
     width: 24px;
     height: 24px;
