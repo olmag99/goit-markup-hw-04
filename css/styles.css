@@ -395,8 +395,8 @@ svg > .social-media-link {
 }
 
 .social-media-svg {
-    width: 24px;
-    height: 24px;
+    width: 24;
+    height: 24;
     fill: #f4f4fd;
 }
 
@@ -518,6 +518,10 @@ svg > .social-media-link {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.social-media-links-footer {
+    gap: 16px;
 }
 
 .footer-logo-span {
