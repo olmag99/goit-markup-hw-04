@@ -370,10 +370,10 @@ ul, ol {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media-button:hover,
-.social-media-button:focus {
+.social-media-button:hover, .social-media-button:focus {
     background-color: #404bbf;
 }
 
@@ -454,7 +454,12 @@ svg > .social-media-link {
         0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);;
-    transform: translateY(0%)
+}
+
+.portfolio-list-item:hover { 
+     .portfolio-img-div-p {
+          transform: translateY(0%); 
+     }
 }
 
 .portfolio-list-item-div {
@@ -556,4 +561,5 @@ svg > .social-media-link {
     color: #FFFFFF;
     margin-bottom: 16px;
     gap: 16px;
+    margin-bottom: 16px;
 }
